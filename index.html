@@ -1,129 +1,140 @@
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-  crossorigin="anonymous"
-/>
-<link
-  rel="stylesheet"
-  href="styles/main.css"
-/>
-
-<div id="page-wrapper">
-  <header id="header">
-    <div class="logo">
-      <img
-           id="header-img"
-
-src="images/slika.png"
-           alt="Sven's paint-brush"
-           />
-    </div>
-
-    <nav id="nav-bar"
-         <ul>
-    <li><a class="nav-link" href="#features">Features</a></li>
-    <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
-    <li><a class="nav-link" href="#pricing">Pricing</a></li>
-    </ul>
-  </nav>
-</header>
-
-<div class="containeer"></div>
-
-<section id="hero">
-  <h2>Hand-painted personal portraits from a certified Art Accademy Painter</h2>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-               name="email"
-               id="email"
-               type="email"
-               placeholder="Enter your email adress"
-               required
-               />
-    <input id="submit"
-           type="submit"
-           value="Get started"
-           class="btn"/>
-  </form>
-</section>
-
-<div class="containeer">
-  <section id="features">
-    <div class="grid">
-      <div class="icon"><i class="fas fa-paint-brush fa-3x"></i></div>
-      <div class="desc">
-        <h2>Portraits/Paintings of all sizes</h2>
-        <p>The proffesional painter will paint anything you wish for in any size you wish for</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="icon"><i class="fas fa-object-group fa-3x"></i></div>
-        <div class="desc">
-          <h2>Hand-made frames of variuos design</h2>
-          <p>Our Professional painter (Now also a woodcarver) makes hand-made frames for the beautyfull paintings he produces</p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <meta charset="utf-8" />
+    <title>website</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="images/slika.png"
+            alt="Sven's paint-brush"
+          />
         </div>
-      </div>
-      <div class="grid">
-        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-        <div class="desc">
-          <h2>Fast shipping</h2>
-          <p>We will personally make sure your beatufyfiull paintings arrive at your doorstep in the fastest manner possible</p>
-        </div>
-      </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="containeer"></div>
+
+      <section id="hero">
+        <h2>
+          Hand-painted personal portraits from a certified Art Accademy Painter
+        </h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email adress"
+            required
+          />
+          <input id="submit" type="submit" value="Get started" class="btn" />
+        </form>
       </section>
 
-  <section id="how-it-works">
-    <iframe
+      <div class="containeer">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fas fa-paint-brush fa-3x"></i></div>
+            <div class="desc">
+              <h2>Portraits/Paintings of all sizes</h2>
+              <p>
+                The proffesional painter will paint anything you wish for in any
+                size you wish for
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-object-group fa-3x"></i></div>
+            <div class="desc">
+              <h2>Hand-made frames of variuos design</h2>
+              <p>
+                Our Professional painter (Now also a woodcarver) makes hand-made
+                frames for the beautyfull paintings he produces
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Fast shipping</h2>
+              <p>
+                We will personally make sure your beatufyfiull paintings arrive
+                at your doorstep in the fastest manner possible
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="how-it-works">
+          <iframe
             id="video"
             height="315"
             src="https://www.youtube.com/watch?v=rTlbMsrTm14"
             frameborder="0"
- allowfullscreen></iframe>
-  </section>
+            allowfullscreen
+          ></iframe>
+        </section>
 
-  <section id="pricing">
+        <section id="pricing">
+          <div class="product" id="small-portrait/painting">
+            <div class="level">Small Portrait/paiting</div>
+            <h2>100€</h2>
+            <ol>
+              <li>Porttrait/painting of a size "small"</li>
+              <li>Hand-made wooden frame of various design</li>
+              <li>Fast and reliable shipping</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
 
-    <div class="product" id="small-portrait/painting">
-      <div class="level">Small Portrait/paiting</div>
-      <h2>100€</h2>
-      <ol>
-        <li>Porttrait/painting of a size "small"</li>
-        <li>Hand-made wooden frame of various design</li>
-        <li>Fast and reliable shipping</li>
-      </ol>
-      <button class="btn">Select</button>
+          <div class="product" id="medium portrait/painting">
+            <div class="level">Medium portait/painting</div>
+            <h2>250€</h2>
+            <ol>
+              <li>Portrait/painting of medium size</li>
+              <li>Hand-made wooden frame of various design</li>
+              <li>Fast and reliable shipping</li>
+            </ol>
+            <button>Select</button>
+          </div>
+
+          <div class="product" id="Large portrait/painting">
+            <div class="level">Large portrait/painting</div>
+            <h2>500€ +</h2>
+            <ol>
+              <li>Portrait/painting of a Large size</li>
+              <li>Hand-made hard-wood frame of various design</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2020, Sven's paint-brush</span>
+        </footer>
+      </div>
     </div>
-
-    <div class="product" id="medium portrait/painting">
-      <div class="level">Medium portait/painting</div>
-    <h2>250€</h2>
-    <ol>
-      <li>Portrait/painting of medium size</li>
-      <li>Hand-made wooden frame of various design</li>
-      <li>Fast and reliable shipping</li>
-    </ol>
-    <button>Select</button>
-    </div>
-
-  <div class="product" id="Large portrait/painting">
-  <div class="level">Large portrait/painting</div>
-  <h2>500€ +</h2>
-  <ol>
-    <li>Portrait/painting of a Large size</li>
-    <li>Hand-made hard-wood frame of various design</li>
-  </ol>
-  <button class="btn">Select</buton>
-</div>
-
-</section>
-<footer>
-  <ul>
-    <li><a href="#">Privacy</a></li>
-    <li><a href="#">Terms</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-  <span>Copyright 2020, Sven's paint-brush</span>
-</footer>
-</div>
-</div>
+  </body>
+</html>
